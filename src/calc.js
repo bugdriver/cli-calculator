@@ -13,3 +13,5 @@ const mul = function(firstNumber, secondNumber) {
 const div = function(firstNumber, secondNumber) {
   return firstNumber / secondNumber;
 };
+
+module.exports = { add, sub, mul, div };
